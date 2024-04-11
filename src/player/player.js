@@ -4,8 +4,8 @@ import Spritesheet from "../package/package.spritesheet";
 export default class Player {
     constructor(scene) {
         this.scene = scene;
-        this.velocity = 20;
-        // this.velocity = 3;
+        //this.velocity = 20;
+        this.velocity = 3;
         this.positionMap = { x: 180, y: 400 };
     
         this.create_texture();
